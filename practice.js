@@ -230,6 +230,201 @@ let sendMony = 0;
 // pay 40000 for Nahid and Sayan
 let pay = 40000;
 
+// ---------------practice_9-----------------
+
+let favoriteFood = "beef ";
+console.log(favoriteFood);
+
+let city = "Dhaka";
+let City = "Chittagong";
+console.log(city);
+console.log(City);
+
+let userName = "Johan";
+let username = "Jovan";
+console.log(userName);
+console.log(username);
+
+let myHome = "Dhaka";
+console.log(myHome);
+
+/* super is Reserved Keyword in js 
+let super = 23;
+console.log(super); */
+
+/* class is Reserved Keyword in js 
+let class = 10;
+console.log(class); */
+
+/* note used Number in variable
+let 2ndPosition = "sakib";
+console.log(2ndPosition); */
+
+// ---------------practice_10-----------------
+
+let number0 = "20";
+// let number0 = "20Abcdef";
+let number1 = Number("20");
+// let number1 = parseInt("20")
+let number2 = 10;
+let number3 = number1 + number2 ;
+console.log(number3);
+
+// let number = parseFloat("3.14159");
+// console.log(Number(number.toFixed(1)));
+
+let number = parseInt("3.14159");
+console.log(number);
+
+let tryJast = parseInt("premikBoy");
+console.log(tryJast);
+
+let number5 = 3.456;
+let number6 = 2.789;
+let number5_6 = number5 + number6;
+console.log(number5_6.toFixed(2));
+
+let number7 = parseInt("56.78");
+let number8 = parseInt("12.34");
+let number7_8 = number7 + number8;
+console.log(number7_8);
+
+let number9 = 10.5678;
+console.log(Number(number9.toFixed(1)));
+
+let number10 = 5.4321;
+console.log(Number(number10.toFixed(1)));
+
+let number11 = 42.45689754;
+console.log(number11.toFixed(3));
+
+
+// ---------------practice_11-----------------
+
+console.log("Ahmad" > "Sayan");
+
+console.log(45 < 50);
+
+console.log(75 === 75);
+
+console.log(100 >= 95);
+
+console.log(10 !== 7);
+
+console.log(20 >= 15);
+
+console.log(45 < 97);
+
+// ---------------practice_12-----------------
+
+console.log(10 <= 15);
+console.log(45 > 33);
+console.log("janbora" >= "kodbal");
+console.log(10 === 10);
+console.log(15 < 20);
+console.log(2 < 3);
+console.log("rahim" === "karim");
+let study = true;
+console.log(study);
+let study2 = false;
+console.log(study2);
+
+// ---------------practice_13-----------------
+
+console.log(50 == "50");
+console.log(50 === "50");
+
+console.log("javaScript" == 'javaScript');
+console.log("javaScript" === 'javaScript');
+
+console.log(25 == "25");
+console.log(25 === "25");
+
+console.log("apple" == "apple" );
+console.log("apple" === "apple");
+
+console.log("test" == "TEST");
+console.log("test" === "TEST");
+
+let x = 15;
+let y = "20";
+console.log(x != y);
+console.log(x !== y);
+
+let a = "hello";
+let b = "Hello";
+console.log(a != b);
+console.log(a !== b);
+
+// ---------------practice_14-----------------
+
+let evening = true;
+if ( evening === false){
+    console.log("nasta rady");
+}
+else{
+    console.log("jaror bari");
+}
+
+let login = true;
+if (login === true){
+    console.log("Welcome");
+}
+
+else{
+    console.log("Get Lost");
+}
+
+let km = 5.6;
+if (km < 5.6) {
+    console.log("coklat pabi");
+}
+else{
+    console.log("mota ho aroo");
+}
+
+let pass = 80;
+if(85 > pass ){
+    console.log("bike done");
+}
+else{
+    console.log("no bike");
+}
+
+let movi = 7;
+if(movi < 9) {
+    console.log("move see done");
+}
+else{
+    console.log("no movi");
+}
+
+let digri = 30;
+if(digri > 40 ) {
+    console.log("AC");
+}
+else{
+    console.log("No AC");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
