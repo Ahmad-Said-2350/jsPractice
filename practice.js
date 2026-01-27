@@ -408,23 +408,187 @@ else{
 }
 
 
+// ---------------practice_15-----------------
 
+let age3 = 18;
+let hight = 60;
 
+if(age3 > 17 && hight > 50){
+    console.log("boso");
+}
+else{
+    console.log("jao");
+}
 
+let gonit = 90;
+let enlis = 80;
 
+if(gonit > 80 || enlis > 85){
+    console.log("borti done");
+}
+else{
+    console.log("biaa koro");
+}
 
+let gpa_5 = true ;
+let income5 = 11000;
 
+if(gpa_5 === true && income5 > 10000){
+    console.log("free done");
+} 
+else{
+    console.log("batan bokto");
+}
 
+let age4 = 30;
+let ex = 2;
 
+if(age4 < 30 && ex > 1 ) {
+    console.log("cakri ex din");
+}
+else{
+    console.log("not allword");
+}
 
+let dim = 12;
+let morgi = false;
 
+if(dim > 10 || morgi === true){
+    console.log("korma ");
+}
+else{
+    console.log("kola roti kha");
+}
 
+let jor = 102;
+let kasi = true;
 
+if(jor > 100 || kasi === true){
+    console.log("daktar done");
+}
+else{
+    console.log("gomia thako");
+}
 
+let done = 87;
+let homeWork = true;
 
+if(done > 80 && homeWork === true){
+    console.log("ex done");
+}
+else {
+    console.log("no allworld");
+}
 
+let biddot = true;
+let mobil = true ;
 
+if(biddot === false && mobil === false){
+    console.log("porta bosbi");
+}
+else{
+    console.log("porbo");
+}
 
+let sart = 1200;
+let copon = true;
+
+if (sart > 1000 && copon === true ){
+    console.log("20 parsent diskaont");
+}
+else{
+    console.log("no diskaont");
+}
+
+// ---------------practice_16-----------------
+
+let kanakata = 2500;
+let kanakata2 = 6500;
+
+if(kanakata > 3000){
+    let diskaont = kanakata / 100 * 5;
+    let pay = kanakata -diskaont;
+    console.log(pay);
+}
+else if(kanakata2 > 6000 ){
+    let diskaont = kanakata2 / 100 * 15;
+    let pay = kanakata2 - diskaont;
+    console.log(pay);
+}
+
+else{
+    console.log(kanakata);
+}
+
+let age5 = 11;
+let age6 = 5000;
+
+if(age5 <= 12 ){
+    console.log("free okey");
+}
+else if(age6 > 60){
+    let diskaont = age6 /100 *50;
+    let pay = age6 -diskaont;
+    console.log(pay);
+
+}
+
+else{
+    console.log("pay mast");
+}
+
+let bank = 900;
+let bank2 = 2300;
+let bank3 = 6000;
+
+if(bank < 1000){
+    console.log("dipogit koro");
+}
+
+else if( bank2 > 1000){
+    console.log("bindas life");
+}
+
+else if(bank3 > 5000){
+    console.log("bia kor toi");
+}
+else{
+    console.log("mor toi");
+}
+
+let mark = 52;
+let mark2 = 80;
+let mark3 = 81;
+
+if(mark < 50 ){
+    console.log("fail");
+}
+else if(mark2 > 50){
+    console.log("pass");
+}
+else if(mark3 > 80){
+    console.log("A+");
+}
+else{
+    console.log("nothing");
+}
+
+let bokSize = 100;
+let bokSize2 = 500;
+let bokSize3 = 501;
+
+if(bokSize <= 100){
+    console.log("small book");
+}
+else if (bokSize2 > 100){
+    console.log("mid-size book");
+}
+else if (bokSize3 > 500){
+    console.log("hard-size book");
+}
+else{
+    console.log("okey");
+}
 
 
 
