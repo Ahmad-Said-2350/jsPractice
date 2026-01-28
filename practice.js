@@ -590,6 +590,318 @@ else{
     console.log("okey");
 }
 
+let digri2 = 0;
+let digri3 = 19;
+let digri4 = 21;
+
+if(digri2 < 1) {
+    console.log("Ice");
+}
+
+else if(digri3 > 0){
+    console.log("COOL COOL");
+}
+
+else if(digri4 > 20){
+    console.log("Hot Hot");
+}
+else{
+    console.log("no ");
+}
+
+let game = 10;
+let game2 = 9;
+let game3 = 51;
+
+if(game < 10){
+    console.log("novice");
+}
+else if(game2 > 10){
+    console.log("expert");
+}
+else if(game3 > 50){
+    console.log("pro gamer");
+}
+
+
+// ---------------practice_17-----------------
+
+
+// ---------------practice_18-----------------
+
+
+// ---------------practice_19-----------------
+
+
+// ---------------practice_20-----------------
+
+
+// ---------------practice_21-----------------
+
+
+// ---------------practice_23-----------------
+
+
+// ---------------practice_24-----------------
+
+let sub = ["bangla","englis","kobita" ,"goddo","golpo"]
+
+for (let subj of sub){
+    console.log(subj);
+}
+
+let food = ["cikan", "bif","kicci"]
+
+for(let foods of food){
+    console.log(foods);
+}
+
+
+let jonmosal = [1920,1950, 1956,2007]
+
+for (let jonmosals of jonmosal){
+    console.log(jonmosals);
+}
+
+let brstTeme = ["masi", "naimar","ronaldo","Mbappi"]
+
+for (let brstTems of brstTeme){
+    console.log(brstTems);
+}
+
+let exNext = [6,21,10]
+
+for (let exNexts of exNext){
+    console.log(exNexts);
+}
+
+// ---------------practice_25-----------------
+
+let loop = 50;
+
+while (loop < 100){
+    console.log(loop);
+    loop ++;
+}
+
+let programming = 0;
+
+while (programming <= 10){
+    console.log("ami 14 gonta");
+    programming ++;
+}
+
+let i = 1;
+
+while(i <= 20){
+    console.log(i);
+    i ++;
+}
+
+let ii = 1;
+
+while (ii < 10 ){
+    console.log(ii * 3 );
+    ii ++;
+}
+
+let iii = 110;
+
+while(iii < 111){
+    console.log(iii /2);
+    iii ++;
+}
+
+
+// // ---------------practice_26-----------------
+
+let prints = 50;
+while (prints < 100){
+    console.log(prints);
+    prints ++;
+}
+
+let prints1 = 5;
+let sum1 = 0;
+while (prints1 <= 15){
+    console.log(prints1);
+    sum1 = sum1 + prints1;
+    prints1 ++;
+}
+
+console.log('sum1:', sum1);
+
+let rol = 1;
+let rolSum = 0;
+while(rol <= 50){
+    console.log(rol);
+    rolSum = rolSum + rol
+    rol ++;
+}
+console.log("Sum:", rolSum);
+
+let sum5 = 21;
+let sum6 = 0;
+
+while(sum5 <= 50){
+    console.log(sum5);
+    sum6 = sum6 + sum5;
+    sum5 ++;
+}
+console.log("sum:",sum6 );
+
+let sum7 = 20;
+let sum7_1 = 0;
+
+while(sum7 <= 40){
+    console.log(sum7);
+    sum7_1 = sum7_1 + sum7;
+    sum7 ++;
+}
+
+console.log("sum:", sum7_1);
+
+for(let forLoop = 150; forLoop <= 170;forLoop ++){
+    console.log(forLoop);
+}
+
+let sumSkool = 0;
+for( let rolList = 31; rolList <= 58; rolList ++){
+    console.log(rolList);
+    sumSkool = sumSkool + rolList ;
+    
+}
+console.log("sum:", sumSkool);
+
+
+let sum11 = 0;
+
+for(let sumSum = 25;sumSum <= 75; sumSum ++){
+    sum11 = sum11 + sumSum;
+}
+console.log("sum:",sum11);
+
+// ---------------practice_27-----------------
+
+// odd and even 
+for (let iiii = 100; iiii < 500; iiii ++){
+    if(iiii % 2 === 0){
+        console.log(iiii);
+    }
+}
+
+for (let iiiii = 100; iiiii < 500; iiiii ++){
+    if(iiiii % 2 === 1){
+        console.log(iiiii);
+    }
+}
+
+for(let o =19; o <= 29; o = o +2 ){
+    console.log(o);
+}
+
+for(let oo =20; oo <= 30; oo = oo +2 ){
+    console.log(oo);
+}
+
+
+
+
+
+for (let bibajo1 =20; bibajo1 <= 50;bibajo1 ++){
+    if(bibajo1 % 7 === 0){
+        console.log(bibajo1);
+    }
+}
+
+
+for (let bibajo2 =40; bibajo2 <= 80;bibajo2 ++){
+    if(bibajo2 % 5 === 0 && bibajo2 % 7 === 0){
+        console.log(bibajo2);
+    }
+}
+
+let jog = 0;
+for (let sum12 =1;sum12 <= 40;sum12 ++){
+    if(sum12 % 13 === 0){
+        console.log(sum12);
+        jog = jog + sum12;
+    }
+    
+}
+console.log("sum:", jog);
+
+for (let jog2 = 1; jog2 < 50;jog2 += 4){
+    console.log(jog2);
+}
+
+for(let bibajo3 = 0;bibajo3 <= 100; bibajo3 ++){
+    if(bibajo3 % 9 === 0 && bibajo3 % 6 === 0){
+        console.log(bibajo3);
+    }
+
+
+}
+
+let jog5 = 0;
+for (let sum120 =1;sum120 <= 50;sum120 ++){
+    if(sum120 % 3 === 0 && sum120 % 4 === 0 ){
+        console.log(sum120);
+        jog5 = jog5 + sum120;
+    }
+    
+}
+
+console.log("sum:", jog5);
+
+// // ---------------practice_28-----------------
+
+for (let jog10 = 1; jog10 <= 30;jog10 ++){
+    console.log(jog10);
+    if(jog10 >= 15){
+        break;
+    }
+}
+
+for (let bad = 1;bad <= 40; bad ++){
+    if(bad % 7 === 0){
+        continue;
+    }
+    console.log(bad);
+}
+
+
+for (let jog100 = 1; jog100 <= 15;jog100 ++){
+    
+    if(jog100 === 9){
+        continue;
+    }
+    console.log(jog100);
+}
+
+for (let jog1000 = 1; jog1000 <= 20;jog1000 ++){
+    
+    if(jog1000 === 12){
+        continue;
+    }
+    console.log(jog1000);
+}
+
+for (let badd = 1;badd <= 25; badd ++){
+    if(badd % 3 === 0){
+        continue;
+    }
+    console.log(badd);
+}
+
+for (let badd1 = 91;badd1 <= 120; badd1 ++){
+    if(badd1 % 10 === 0){
+        break;
+    }
+    console.log(badd1);
+}
+// ------------------------------------------
+
 
 
 
