@@ -626,12 +626,42 @@ else if(game3 > 50){
 
 // ---------------practice_17-----------------
 
+let friendDwot = true;
+let friendDwot2 = 1200;
+let friendDwot3 = 900;
+
+if(friendDwot === true){
+    console.log("jonmo dinar pati done ");
+    if(friendDwot2 > 1000){
+    console.log("gift done");
+}
+
+if(friendDwot3 > 1000){
+        console.log("no gift");
+    }
+    
+} 
+
+else{
+    console.log("no friend");
+}
+
+
+let mahman = true;
+let mahman2 = true;
+
+
+
+
+
+
+
 
 // ---------------practice_18-----------------
 
 
-// ---------------practice_19-----------------
 
+// ---------------practice_19-----------------
 
 // ---------------practice_20-----------------
 
@@ -901,19 +931,117 @@ for (let badd1 = 91;badd1 <= 120; badd1 ++){
     console.log(badd1);
 }
 // ------------------------------------------
+let go = 10;
+do{
+    console.log(go);
+    go ++;
+}
+while(go <= 20)
 
 
 
 
 
+// for (let i = 0; i < 5;i ++){
+//     console.log(i);
+//     console.log(friendIsBig [i]);
+// }
+
+let friendIsBig = [ "Elon", "Mark", "Bill","Waren","jobs","rakib"];
+
+
+for (let  friendIsBigBos of friendIsBig){
+    console.log(friendIsBigBos);
+}
+
+
+for (let i = 0; i < friendIsBig.length;i ++){
+    console.log(i);
+    console.log(friendIsBig [i]);
+}
+
+
+
+let numbers = [32,34,45,56,45,45]
+
+for (i = 0; i < numbers.length;i ++){
+    console.log(numbers [i]);
+}
+
+
+let f = 0;
+
+while(f < friendIsBig.length){
+    console.log(friendIsBig[f]);
+    f ++;
+}
+
+
+let n = 0;
+
+while(n < numbers.length){
+    console.log(numbers[n]);
+    n ++;
+}
+
+let number111 = [1,2,3,4,5,6,7,]
+// console.log(number111);
+
+// number111.reverse()
+
+// console.log(number111);
+
+
+let rbarsdNumber = [];
+
+for (num000 of number111){
+    console.log(num000);
+    rbarsdNumber.unshift(num000);
+}
+console.log(rbarsdNumber);
+
+let re = ["rakib","akib","sakib"]
+re.reverse()
+console.log(re);
+
+
+let person = ["rakib","akib","sakib","nakib"];
+
+let personFinal = person.sort()
+console.log(personFinal);
+
+
+let nnn = [9,8,7,6,5,4,3,2,1];
+let nnnFinal = nnn.sort()
+console.log(nnnFinal);
 
 
 
 
+let mobaile = {
+    name: "oppo",
+    praice22: 23000,
+    color: "blue",
+
+}
+for (let llipop in mobaile){
+    console.log(llipop);
+    console.log(mobaile[llipop]);
+}
 
 
 
+for (let l = 50; l >= 35;l-- ){
+    console.log(l);
+}
 
+let k = 50;
+
+while( k >= 35){
+    console.log(k);
+    k --;
+
+}
 
 
 
