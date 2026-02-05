@@ -130,13 +130,13 @@ console.log(remained3_2);
 
 let income4 = 8;
 let cost4 = 3;
-let remained4_1 = income4 / cost4 ;
+let remained4_1 = income4 / cost4;
 let remained4_2 = income4 % cost4;
-console.log(Number(remained4_1.toFixed(1) ));
+console.log(Number(remained4_1.toFixed(1)));
 console.log(remained4_2);
 
-let string3 = "Bangla" ;
-let string3_2 = "desh" ;
+let string3 = "Bangla";
+let string3_2 = "desh";
 let finalString3 = string3 + string3_2;
 console.log(finalString3);
 
@@ -174,7 +174,7 @@ undefined or null
 */
 let noDefined2;
 let usedNull2 = null;
-console.log( typeof noDefined2);
+console.log(typeof noDefined2);
 console.log(typeof usedNull2);
 
 // ---------------practice_7-----------------
@@ -267,7 +267,7 @@ let number0 = "20";
 let number1 = Number("20");
 // let number1 = parseInt("20")
 let number2 = 10;
-let number3 = number1 + number2 ;
+let number3 = number1 + number2;
 console.log(number3);
 
 // let number = parseFloat("3.14159");
@@ -340,7 +340,7 @@ console.log("javaScript" === 'javaScript');
 console.log(25 == "25");
 console.log(25 === "25");
 
-console.log("apple" == "apple" );
+console.log("apple" == "apple");
 console.log("apple" === "apple");
 
 console.log("test" == "TEST");
@@ -359,19 +359,19 @@ console.log(a !== b);
 // ---------------practice_14-----------------
 
 let evening = true;
-if ( evening === false){
+if (evening === false) {
     console.log("nasta rady");
 }
-else{
+else {
     console.log("jaror bari");
 }
 
 let login = true;
-if (login === true){
+if (login === true) {
     console.log("Welcome");
 }
 
-else{
+else {
     console.log("Get Lost");
 }
 
@@ -379,31 +379,31 @@ let km = 5.6;
 if (km < 5.6) {
     console.log("coklat pabi");
 }
-else{
+else {
     console.log("mota ho aroo");
 }
 
 let pass = 80;
-if(85 > pass ){
+if (85 > pass) {
     console.log("bike done");
 }
-else{
+else {
     console.log("no bike");
 }
 
 let movi = 7;
-if(movi < 9) {
+if (movi < 9) {
     console.log("move see done");
 }
-else{
+else {
     console.log("no movi");
 }
 
 let digri = 30;
-if(digri > 40 ) {
+if (digri > 40) {
     console.log("AC");
 }
-else{
+else {
     console.log("No AC");
 }
 
@@ -413,67 +413,67 @@ else{
 let age3 = 18;
 let hight = 60;
 
-if(age3 > 17 && hight > 50){
+if (age3 > 17 && hight > 50) {
     console.log("boso");
 }
-else{
+else {
     console.log("jao");
 }
 
 let gonit = 90;
 let enlis = 80;
 
-if(gonit > 80 || enlis > 85){
+if (gonit > 80 || enlis > 85) {
     console.log("borti done");
 }
-else{
+else {
     console.log("biaa koro");
 }
 
-let gpa_5 = true ;
+let gpa_5 = true;
 let income5 = 11000;
 
-if(gpa_5 === true && income5 > 10000){
+if (gpa_5 === true && income5 > 10000) {
     console.log("free done");
-} 
-else{
+}
+else {
     console.log("batan bokto");
 }
 
 let age4 = 30;
 let ex = 2;
 
-if(age4 < 30 && ex > 1 ) {
+if (age4 < 30 && ex > 1) {
     console.log("cakri ex din");
 }
-else{
+else {
     console.log("not allword");
 }
 
 let dim = 12;
 let morgi = false;
 
-if(dim > 10 || morgi === true){
+if (dim > 10 || morgi === true) {
     console.log("korma ");
 }
-else{
+else {
     console.log("kola roti kha");
 }
 
 let jor = 102;
 let kasi = true;
 
-if(jor > 100 || kasi === true){
+if (jor > 100 || kasi === true) {
     console.log("daktar done");
 }
-else{
+else {
     console.log("gomia thako");
 }
 
 let done = 87;
 let homeWork = true;
 
-if(done > 80 && homeWork === true){
+if (done > 80 && homeWork === true) {
     console.log("ex done");
 }
 else {
@@ -481,22 +481,22 @@ else {
 }
 
 let biddot = true;
-let mobil = true ;
+let mobil = true;
 
-if(biddot === false && mobil === false){
+if (biddot === false && mobil === false) {
     console.log("porta bosbi");
 }
-else{
+else {
     console.log("porbo");
 }
 
 let sart = 1200;
 let copon = true;
 
-if (sart > 1000 && copon === true ){
+if (sart > 1000 && copon === true) {
     console.log("20 parsent diskaont");
 }
-else{
+else {
     console.log("no diskaont");
 }
 
@@ -505,35 +505,35 @@ else{
 let kanakata = 2500;
 let kanakata2 = 6500;
 
-if(kanakata > 3000){
+if (kanakata > 3000) {
     let diskaont = kanakata / 100 * 5;
-    let pay = kanakata -diskaont;
+    let pay = kanakata - diskaont;
     console.log(pay);
 }
-else if(kanakata2 > 6000 ){
+else if (kanakata2 > 6000) {
     let diskaont = kanakata2 / 100 * 15;
     let pay = kanakata2 - diskaont;
     console.log(pay);
 }
 
-else{
+else {
     console.log(kanakata);
 }
 
 let age5 = 11;
 let age6 = 5000;
 
-if(age5 <= 12 ){
+if (age5 <= 12) {
     console.log("free okey");
 }
-else if(age6 > 60){
-    let diskaont = age6 /100 *50;
-    let pay = age6 -diskaont;
+else if (age6 > 60) {
+    let diskaont = age6 / 100 * 50;
+    let pay = age6 - diskaont;
     console.log(pay);
 
 }
 
-else{
+else {
     console.log("pay mast");
 }
 
@@ -541,18 +541,18 @@ let bank = 900;
 let bank2 = 2300;
 let bank3 = 6000;
 
-if(bank < 1000){
+if (bank < 1000) {
     console.log("dipogit koro");
 }
 
-else if( bank2 > 1000){
+else if (bank2 > 1000) {
     console.log("bindas life");
 }
 
-else if(bank3 > 5000){
+else if (bank3 > 5000) {
     console.log("bia kor toi");
 }
-else{
+else {
     console.log("mor toi");
 }
 
@@ -560,16 +560,16 @@ let mark = 52;
 let mark2 = 80;
 let mark3 = 81;
 
-if(mark < 50 ){
+if (mark < 50) {
     console.log("fail");
 }
-else if(mark2 > 50){
+else if (mark2 > 50) {
     console.log("pass");
 }
-else if(mark3 > 80){
+else if (mark3 > 80) {
     console.log("A+");
 }
-else{
+else {
     console.log("nothing");
 }
 
@@ -577,16 +577,16 @@ let bokSize = 100;
 let bokSize2 = 500;
 let bokSize3 = 501;
 
-if(bokSize <= 100){
+if (bokSize <= 100) {
     console.log("small book");
 }
-else if (bokSize2 > 100){
+else if (bokSize2 > 100) {
     console.log("mid-size book");
 }
-else if (bokSize3 > 500){
+else if (bokSize3 > 500) {
     console.log("hard-size book");
 }
-else{
+else {
     console.log("okey");
 }
 
@@ -594,18 +594,18 @@ let digri2 = 0;
 let digri3 = 19;
 let digri4 = 21;
 
-if(digri2 < 1) {
+if (digri2 < 1) {
     console.log("Ice");
 }
 
-else if(digri3 > 0){
+else if (digri3 > 0) {
     console.log("COOL COOL");
 }
 
-else if(digri4 > 20){
+else if (digri4 > 20) {
     console.log("Hot Hot");
 }
-else{
+else {
     console.log("no ");
 }
 
@@ -613,13 +613,13 @@ let game = 10;
 let game2 = 9;
 let game3 = 51;
 
-if(game < 10){
+if (game < 10) {
     console.log("novice");
 }
-else if(game2 > 10){
+else if (game2 > 10) {
     console.log("expert");
 }
-else if(game3 > 50){
+else if (game3 > 50) {
     console.log("pro gamer");
 }
 
@@ -630,19 +630,19 @@ let friendDwot = true;
 let friendDwot2 = 1200;
 let friendDwot3 = 900;
 
-if(friendDwot === true){
+if (friendDwot === true) {
     console.log("jonmo dinar pati done ");
-    if(friendDwot2 > 1000){
-    console.log("gift done");
-}
+    if (friendDwot2 > 1000) {
+        console.log("gift done");
+    }
 
-if(friendDwot3 > 1000){
+    if (friendDwot3 > 1000) {
         console.log("no gift");
     }
-    
-} 
 
-else{
+}
+
+else {
     console.log("no friend");
 }
 
@@ -674,34 +674,34 @@ let mahman2 = true;
 
 // ---------------practice_24-----------------
 
-let sub = ["bangla","englis","kobita" ,"goddo","golpo"]
+let sub = ["bangla", "englis", "kobita", "goddo", "golpo"]
 
-for (let subj of sub){
+for (let subj of sub) {
     console.log(subj);
 }
 
-let food = ["cikan", "bif","kicci"]
+let food = ["cikan", "bif", "kicci"]
 
-for(let foods of food){
+for (let foods of food) {
     console.log(foods);
 }
 
 
-let jonmosal = [1920,1950, 1956,2007]
+let jonmosal = [1920, 1950, 1956, 2007]
 
-for (let jonmosals of jonmosal){
+for (let jonmosals of jonmosal) {
     console.log(jonmosals);
 }
 
-let brstTeme = ["masi", "naimar","ronaldo","Mbappi"]
+let brstTeme = ["masi", "naimar", "ronaldo", "Mbappi"]
 
-for (let brstTems of brstTeme){
+for (let brstTems of brstTeme) {
     console.log(brstTems);
 }
 
-let exNext = [6,21,10]
+let exNext = [6, 21, 10]
 
-for (let exNexts of exNext){
+for (let exNexts of exNext) {
     console.log(exNexts);
 }
 
@@ -709,128 +709,128 @@ for (let exNexts of exNext){
 
 let loop = 50;
 
-while (loop < 100){
+while (loop < 100) {
     console.log(loop);
-    loop ++;
+    loop++;
 }
 
 let programming = 0;
 
-while (programming <= 10){
+while (programming <= 10) {
     console.log("ami 14 gonta");
-    programming ++;
+    programming++;
 }
 
 let i = 1;
 
-while(i <= 20){
+while (i <= 20) {
     console.log(i);
-    i ++;
+    i++;
 }
 
 let ii = 1;
 
-while (ii < 10 ){
-    console.log(ii * 3 );
-    ii ++;
+while (ii < 10) {
+    console.log(ii * 3);
+    ii++;
 }
 
 let iii = 110;
 
-while(iii < 111){
-    console.log(iii /2);
-    iii ++;
+while (iii < 111) {
+    console.log(iii / 2);
+    iii++;
 }
 
 
 // // ---------------practice_26-----------------
 
 let prints = 50;
-while (prints < 100){
+while (prints < 100) {
     console.log(prints);
-    prints ++;
+    prints++;
 }
 
 let prints1 = 5;
 let sum1 = 0;
-while (prints1 <= 15){
+while (prints1 <= 15) {
     console.log(prints1);
     sum1 = sum1 + prints1;
-    prints1 ++;
+    prints1++;
 }
 
 console.log('sum1:', sum1);
 
 let rol = 1;
 let rolSum = 0;
-while(rol <= 50){
+while (rol <= 50) {
     console.log(rol);
     rolSum = rolSum + rol
-    rol ++;
+    rol++;
 }
 console.log("Sum:", rolSum);
 
 let sum5 = 21;
 let sum6 = 0;
 
-while(sum5 <= 50){
+while (sum5 <= 50) {
     console.log(sum5);
     sum6 = sum6 + sum5;
-    sum5 ++;
+    sum5++;
 }
-console.log("sum:",sum6 );
+console.log("sum:", sum6);
 
 let sum7 = 20;
 let sum7_1 = 0;
 
-while(sum7 <= 40){
+while (sum7 <= 40) {
     console.log(sum7);
     sum7_1 = sum7_1 + sum7;
-    sum7 ++;
+    sum7++;
 }
 
 console.log("sum:", sum7_1);
 
-for(let forLoop = 150; forLoop <= 170;forLoop ++){
+for (let forLoop = 150; forLoop <= 170; forLoop++) {
     console.log(forLoop);
 }
 
 let sumSkool = 0;
-for( let rolList = 31; rolList <= 58; rolList ++){
+for (let rolList = 31; rolList <= 58; rolList++) {
     console.log(rolList);
-    sumSkool = sumSkool + rolList ;
-    
+    sumSkool = sumSkool + rolList;
+
 }
 console.log("sum:", sumSkool);
 
 
 let sum11 = 0;
 
-for(let sumSum = 25;sumSum <= 75; sumSum ++){
+for (let sumSum = 25; sumSum <= 75; sumSum++) {
     sum11 = sum11 + sumSum;
 }
-console.log("sum:",sum11);
+console.log("sum:", sum11);
 
 // ---------------practice_27-----------------
 
 // odd and even 
-for (let iiii = 100; iiii < 500; iiii ++){
-    if(iiii % 2 === 0){
+for (let iiii = 100; iiii < 500; iiii++) {
+    if (iiii % 2 === 0) {
         console.log(iiii);
     }
 }
 
-for (let iiiii = 100; iiiii < 500; iiiii ++){
-    if(iiiii % 2 === 1){
+for (let iiiii = 100; iiiii < 500; iiiii++) {
+    if (iiiii % 2 === 1) {
         console.log(iiiii);
     }
 }
 
-for(let o =19; o <= 29; o = o +2 ){
+for (let o = 19; o <= 29; o = o + 2) {
     console.log(o);
 }
 
-for(let oo =20; oo <= 30; oo = oo +2 ){
+for (let oo = 20; oo <= 30; oo = oo + 2) {
     console.log(oo);
 }
 
@@ -838,35 +838,35 @@ for(let oo =20; oo <= 30; oo = oo +2 ){
 
 
 
-for (let bibajo1 =20; bibajo1 <= 50;bibajo1 ++){
-    if(bibajo1 % 7 === 0){
+for (let bibajo1 = 20; bibajo1 <= 50; bibajo1++) {
+    if (bibajo1 % 7 === 0) {
         console.log(bibajo1);
     }
 }
 
 
-for (let bibajo2 =40; bibajo2 <= 80;bibajo2 ++){
-    if(bibajo2 % 5 === 0 && bibajo2 % 7 === 0){
+for (let bibajo2 = 40; bibajo2 <= 80; bibajo2++) {
+    if (bibajo2 % 5 === 0 && bibajo2 % 7 === 0) {
         console.log(bibajo2);
     }
 }
 
 let jog = 0;
-for (let sum12 =1;sum12 <= 40;sum12 ++){
-    if(sum12 % 13 === 0){
+for (let sum12 = 1; sum12 <= 40; sum12++) {
+    if (sum12 % 13 === 0) {
         console.log(sum12);
         jog = jog + sum12;
     }
-    
+
 }
 console.log("sum:", jog);
 
-for (let jog2 = 1; jog2 < 50;jog2 += 4){
+for (let jog2 = 1; jog2 < 50; jog2 += 4) {
     console.log(jog2);
 }
 
-for(let bibajo3 = 0;bibajo3 <= 100; bibajo3 ++){
-    if(bibajo3 % 9 === 0 && bibajo3 % 6 === 0){
+for (let bibajo3 = 0; bibajo3 <= 100; bibajo3++) {
+    if (bibajo3 % 9 === 0 && bibajo3 % 6 === 0) {
         console.log(bibajo3);
     }
 
@@ -874,69 +874,69 @@ for(let bibajo3 = 0;bibajo3 <= 100; bibajo3 ++){
 }
 
 let jog5 = 0;
-for (let sum120 =1;sum120 <= 50;sum120 ++){
-    if(sum120 % 3 === 0 && sum120 % 4 === 0 ){
+for (let sum120 = 1; sum120 <= 50; sum120++) {
+    if (sum120 % 3 === 0 && sum120 % 4 === 0) {
         console.log(sum120);
         jog5 = jog5 + sum120;
     }
-    
+
 }
 
 console.log("sum:", jog5);
 
 // // ---------------practice_28-----------------
 
-for (let jog10 = 1; jog10 <= 30;jog10 ++){
+for (let jog10 = 1; jog10 <= 30; jog10++) {
     console.log(jog10);
-    if(jog10 >= 15){
+    if (jog10 >= 15) {
         break;
     }
 }
 
-for (let bad = 1;bad <= 40; bad ++){
-    if(bad % 7 === 0){
+for (let bad = 1; bad <= 40; bad++) {
+    if (bad % 7 === 0) {
         continue;
     }
     console.log(bad);
 }
 
 
-for (let jog100 = 1; jog100 <= 15;jog100 ++){
-    
-    if(jog100 === 9){
+for (let jog100 = 1; jog100 <= 15; jog100++) {
+
+    if (jog100 === 9) {
         continue;
     }
     console.log(jog100);
 }
 
-for (let jog1000 = 1; jog1000 <= 20;jog1000 ++){
-    
-    if(jog1000 === 12){
+for (let jog1000 = 1; jog1000 <= 20; jog1000++) {
+
+    if (jog1000 === 12) {
         continue;
     }
     console.log(jog1000);
 }
 
-for (let badd = 1;badd <= 25; badd ++){
-    if(badd % 3 === 0){
+for (let badd = 1; badd <= 25; badd++) {
+    if (badd % 3 === 0) {
         continue;
     }
     console.log(badd);
 }
 
-for (let badd1 = 91;badd1 <= 120; badd1 ++){
-    if(badd1 % 10 === 0){
+for (let badd1 = 91; badd1 <= 120; badd1++) {
+    if (badd1 % 10 === 0) {
         break;
     }
     console.log(badd1);
 }
 // ------------------------------------------
 let go = 10;
-do{
+do {
     console.log(go);
-    go ++;
+    go++;
 }
-while(go <= 20)
+while (go <= 20)
 
 
 
@@ -947,44 +947,44 @@ while(go <= 20)
 //     console.log(friendIsBig [i]);
 // }
 
-let friendIsBig = [ "Elon", "Mark", "Bill","Waren","jobs","rakib"];
+let friendIsBig = ["Elon", "Mark", "Bill", "Waren", "jobs", "rakib"];
 
 
-for (let  friendIsBigBos of friendIsBig){
+for (let friendIsBigBos of friendIsBig) {
     console.log(friendIsBigBos);
 }
 
 
-for (let i = 0; i < friendIsBig.length;i ++){
+for (let i = 0; i < friendIsBig.length; i++) {
     console.log(i);
-    console.log(friendIsBig [i]);
+    console.log(friendIsBig[i]);
 }
 
 
 
-let numbers = [32,34,45,56,45,45]
+let numbers = [32, 34, 45, 56, 45, 45]
 
-for (i = 0; i < numbers.length;i ++){
-    console.log(numbers [i]);
+for (i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
 }
 
 
 let f = 0;
 
-while(f < friendIsBig.length){
+while (f < friendIsBig.length) {
     console.log(friendIsBig[f]);
-    f ++;
+    f++;
 }
 
 
 let n = 0;
 
-while(n < numbers.length){
+while (n < numbers.length) {
     console.log(numbers[n]);
-    n ++;
+    n++;
 }
 
-let number111 = [1,2,3,4,5,6,7,]
+let number111 = [1, 2, 3, 4, 5, 6, 7,]
 // console.log(number111);
 
 // number111.reverse()
@@ -994,24 +994,24 @@ let number111 = [1,2,3,4,5,6,7,]
 
 let rbarsdNumber = [];
 
-for (num000 of number111){
+for (num000 of number111) {
     console.log(num000);
     rbarsdNumber.unshift(num000);
 }
 console.log(rbarsdNumber);
 
-let re = ["rakib","akib","sakib"]
+let re = ["rakib", "akib", "sakib"]
 re.reverse()
 console.log(re);
 
 
-let person = ["rakib","akib","sakib","nakib"];
+let person = ["rakib", "akib", "sakib", "nakib"];
 
 let personFinal = person.sort()
 console.log(personFinal);
 
 
-let nnn = [9,8,7,6,5,4,3,2,1];
+let nnn = [9, 8, 7, 6, 5, 4, 3, 2, 1];
 let nnnFinal = nnn.sort()
 console.log(nnnFinal);
 
@@ -1024,43 +1024,307 @@ let mobaile = {
     color: "blue",
 
 }
-for (let llipop in mobaile){
+for (let llipop in mobaile) {
     console.log(llipop);
     console.log(mobaile[llipop]);
 }
 
 
 
-for (let l = 50; l >= 35;l-- ){
+for (let l = 50; l >= 35; l--) {
     console.log(l);
 }
 
 let k = 50;
 
-while( k >= 35){
+while (k >= 35) {
     console.log(k);
-    k --;
+    k--;
 
 }
 
 
 
+// function
+function SayanNoor() {
+    console.log("Age:18");
+    console.log("class:10");
+}
+SayanNoor();
+
+console.log("------------------------");
+console.log("------------------------");
+console.log("------------------------");
+console.log("------------------------");
+console.log("------------------------");
+SayanNoor();
+
+
+function borgo(numberFunction) {
+    let numberFun = numberFunction * numberFunction;
+    console.log("brgoooo:", numberFun);
+
+}
+
+borgo(2);
+borgo(20);
+borgo(200);
+
+
+
+function allAdd(q, w, e, r, t) {
+    let total = q + w + e + r + t;
+    console.log("Outpot:", total);
+
+}
+
+allAdd(23, 34, 56, 56, 6);
+allAdd(1, 1, 1, 1, 1);
+
+function paramitar(num) {
+    let daboll = num * 2;
+    console.log(num, daboll);
+
+}
+
+paramitar(5);
+
+let mony = 100;
+paramitar(mony);
+
+
+let mony2 = 50;
+paramitar(mony2);
+
+
+function minas(num1, num2) {
+    let diff = num1 - num2
+    console.log("outpot:", diff);
+
+}
+
+minas(20, 10);
+
+minas(100, 50);
+
+let myAge = 200;
+let myAge2 = 100;
+
+minas(myAge, myAge2)
+
+function hafOfNumber(hafNumber) {
+    let haf = hafNumber / 2;
+    return haf;
+
+}
+
+let outpot = hafOfNumber(20);
+console.log("output:", outpot);
+
+let bigNumber = hafOfNumber(1000);
+console.log("output:", bigNumber);
+
+
+
+function isOdd(num) {
+    if (num % 2 === 1) {
+        return true;
+    }
+    // else{
+    //     return false;
+    // }
+    return false;
+}
+console.log(isOdd(5));
+console.log(isOdd(10));
 
 
 
 
+// -------------------------------------------------------------------------------------------------------
+
+function celsiusToFahrenheit(celsius) {
+    let fahrenheit = (celsius * 9 / 5) + 32;
+    return fahrenheit;
+}
+
+let outpotOfCelsiusToFahrenheit = celsiusToFahrenheit(20);
+console.log(outpotOfCelsiusToFahrenheit);
+
+let too = celsiusToFahrenheit(50);
+console.log(too);
+
+
+function countNumber(numberCount, chaik) {
+    let count = 0;
+    for (let i = 0; i < numberCount.length; i++) {
+        if (numberCount[i] === chaik) {
+            count++;
+        }
+    }
+    return count;
+
+}
+
+let numberCount = [5, 5, 5, 5, 5, 5, 5, 6, 11, 1, 11, 1, 1, 1, 12, 98, 5];
+
+let numberCountCall = countNumber(numberCount, 1);
+console.log(numberCountCall);
+
+
+function countItem(arry, chaik) {
+
+    let count = 0;
+    for (let i = 0; i < arry.length; i++) {
+        if (arry[i] === chaik) {
+            count++;
+        }
+
+    }
+    return count;
+
+}
+
+let arry = ["sayan", "kamal", "said", "kamal", "jamal", "kamal", "jamal", "sayan"];
+
+let functionCall = countItem(arry, "kamal");
+console.log(functionCall);
+
+/////////////////////////////////////////////////////////////////////
+
+
+// -------------------------------problemSolving----------------------------------
+
+function wordFrequency(sentence) {
+
+    let words = sentence.split(" ");
+    
+    let wordsCount = {};
+    for (let word of words) {
+        let wordLowerCase = word.toLowerCase();
+
+        if (wordsCount.hasOwnProperty(wordLowerCase)) {
+            wordsCount[wordLowerCase]++;
+        }
+        else {
+            wordsCount[wordLowerCase] = 1;
+        }
+
+
+    }
+    return wordsCount;
+
+}
+
+
+let problemSolvingOutput1 = wordFrequency("I love JS and I love coding and JS is fun Fun fUn"
+);
+console.log(problemSolvingOutput1);
+
+
+function analyzeMarks(marksObj){
+
+    let total = 0;
+    let highestMark = -Infinity;
+    let  lowestMark = Infinity;
+
+    let highestSubject = null;
+    let lowestSubject = null;
+
+    for (let subject in marksObj){
+        let mark = marksObj[subject] ;
+        total = total + mark;
+
+
+        if (mark > highestMark){
+        highestMark = mark;
+        highestSubject = subject;
+    }
+
+    if(mark < lowestMark){
+        lowestMark = mark;
+        lowestSubject = subject ;
+    }
+    }
+    
+    
+    let average = total / Object.keys(marksObj).length;
+
+    
+    
+
+return {
+    total,
+    average,
+    highestSubject,
+    lowestSubject,
+}
+
+    
+    
+
+}
+
+
+let inputObj = { math: 78, english: 65, physics: 88, bangla: 55 }
+let problemSolvingOutput2 = analyzeMarks(inputObj);
+console.log(problemSolvingOutput2);
 
 
 
+function checkPassword(password) {
+let reasons = [];
 
+let length = password.length;
 
+let hasUppercase = false;
+let hasNumber = false;
+let hasSpace = password.includes(" ");
 
+for (let i = 0; i < length; i++) {
+let character = password[i];
+// console.log(character);
+if (character >= "0" && character <= "9") {
+    hasNumber = true;
+    }
+    if (character >= "A" && character <= "Z") {
+    hasUppercase = true;
+    }
+}
 
+  //   console.log(password, length, hasUppercase, hasNumber);
 
+if (hasNumber == false) {
+    reasons.push("Missing number");
+}
 
+if (hasUppercase == false) {
+    reasons.push("Missing uppercase");
+}
 
+if (hasSpace == true) {
+    reasons.push("Space found!!!!!");
+}
 
+  //   console.log(reasons);
 
+let isValid;
+if (reasons.length === 0) {
+    isValid = true;
+} else {
+    isValid = false;
+}
 
+  //   console.log(isValid);
 
+return {
+    valid: isValid,
+    reasons,
+};
+}
 
+let output = checkPassword("helloworld");
+
+console.log(output);
+let output2 = checkPassword("Hello123");
+console.log(output2);
