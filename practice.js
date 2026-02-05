@@ -1328,3 +1328,11 @@ let output = checkPassword("helloworld");
 console.log(output);
 let output2 = checkPassword("Hello123");
 console.log(output2);
+
+
+
+
+
+
+
+
