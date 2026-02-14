@@ -69,3 +69,5 @@ if (textCheck[0] === textCheck[0].toUpperCase()) {
 }
 */
 
+let newPc = 3400;
+console.log(newPc);
